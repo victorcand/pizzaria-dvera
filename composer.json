@@ -1,0 +1,9 @@
+{
+    "name": "dverapizzaria/victor",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }     
+    
+}

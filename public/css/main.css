@@ -1,0 +1,31 @@
+*,p,form,h1,h2,h3,h4{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 80px 1fr 40px;
+    grid-template-areas: 
+    'cabecalho'
+    'principal'
+    'rodape';
+}
+
+.cabecalho{
+    grid-template: cabecalho;
+    background-color: rgb(238, 215, 248);
+}
+
+
+.principal{
+    grid-template: principal;
+    background-color: #dadada;
+}
+
+.rodape{
+    grid-template: rodape;
+    background-color: rgb(245, 245, 245);
+}
