@@ -1,31 +1,41 @@
 *,p,form,h1,h2,h3,h4{
+    color: white;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: One Dot Condensed Bold,Arial Narrow,Arial,Helvetica,sans-serif;
 }
+
 
 body {
     height: 100vh;
     display: grid;
-    grid-template-rows: 80px 1fr 40px;
+    grid-template-rows: 70px 1fr;
     grid-template-areas: 
     'cabecalho'
     'principal'
     'rodape';
+    overflow-y: scroll;
 }
 
+
+/* Cabeçalho da Página */
 .cabecalho{
     grid-template: cabecalho;
-    background-color: rgb(238, 215, 248);
+    position: sticky;
+    top: 0px;
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.589);
+    z-index: 1;
+
 }
 
 
+/* Conteúdo Principal da Página */
 .principal{
     grid-template: principal;
-    background-color: #dadada;
+    background-color: #f8fbff;
+    
 }
 
-.rodape{
-    grid-template: rodape;
-    background-color: rgb(245, 245, 245);
-}
+
+
