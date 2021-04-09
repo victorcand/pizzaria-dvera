@@ -1,6 +1,0 @@
-<main class="principal">
-
-
-
-
-</main>

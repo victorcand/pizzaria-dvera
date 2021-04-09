@@ -1,14 +1,18 @@
 *,p,form,h1,h2,h3,h4{
-    color: white;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: One Dot Condensed Bold,Arial Narrow,Arial,Helvetica,sans-serif;
 }
 
+button{
+    background: none;
+    border: none;
+}
 
 body {
     height: 100vh;
+    
     display: grid;
     grid-template-rows: 70px 1fr;
     grid-template-areas: 
@@ -32,7 +36,13 @@ body {
 /* Conteúdo Principal da Página */
 .principal{
     grid-template: principal;
-    background-color: #f8fbff;
+    height: calc(100 - 70px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #f5fdff url("../images/logo-pizzaria.png") no-repeat center ;
+    background-size: 47%;
 }
 
 

@@ -18,27 +18,10 @@
             </div>
 
             <nav class="menu-center">
-                <a href="#"><button class="btn-center">Peça Online</button></a>
-                <a href="#"><button class="btn-center">Cardápio</button></a>
-                <a href="#"><button class="btn-center">Promoções</button></a>
-                <a href="#"><button class="btn-center">Cadastrar Pizza</button></a>
+                <a href="index.php"><button class="btn-center">Contato</button></a>
+                <a href="cardapio.php"><button class="btn-center">Cardápio</button></a>
+                <a href="promocao.php"><button class="btn-center">Promoções</button></a>
+                <a href="cadastrar.php"><button class="btn-center">Cadastrar Pizza</button></a>
             </nav>
 
-            <nav class="menu-login">
-
-                <i class="far fa-user"></i>
-                <a href="#" class="btn-login"> Fazer Login</a>
-
-            </nav>
-
-            <nav class="menu-center">
-                <div class="menu-cart">
-
-                    <a href="#">
-                        <i class="fas fa-shopping-cart"></i>
-                        <p> Carrinho</p>
-                    </a>
-                </div>
-
-            </nav>
     </header>
